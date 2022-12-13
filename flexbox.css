@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    height: 300px;
+    width: 650px;
+}
+.header {
+    position: relative;
+   background-color: rgb(9, 149, 151);
+   height: 50px;
+   width: 650px;
+}
+.footer {
+    position: relative;
+    background-color: rgb(9, 149, 151);
+    height: 70px;
+    width: 650px;
+}
+.navigation {
+    position: relative;
+    background-color: rgb(226, 145, 6);
+    width: 150px;
+}
+.article {
+    position: relative;
+width: 300px;
+background-color: rgb(221, 178, 5);
+}
+.aside {
+    position: relative;
+    width: 200px;
+    background-color: rgb(203, 211, 38);
+}
+span {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
